@@ -90,10 +90,11 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.2.3</version>
         <configuration>
-<!--          <testFailureIgnore>false</testFailureIgnore>-->
-<!--          <suiteXmlFiles>-->
+         <testFailureIgnore>false</testFailureIgnore>-->
+    <suiteXmlFiles>-->
 <!--            <suiteXmlFile>src/test/java/com/nopcommerce/demo/runner/testng.xml</suiteXmlFile>-->
-<!--          </suiteXmlFiles>-->
+          <suiteXmlFile>testng.xml</suiteXmlFile>-->
+         </suiteXmlFiles>-->
           <argLine>--add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
           </argLine>
         </configuration>
